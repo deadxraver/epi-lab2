@@ -1,5 +1,5 @@
 out/
 build/
-.o
-.out
-.exe
+*.o
+*.out
+*.exe
