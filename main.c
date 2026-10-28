@@ -1,6 +1,11 @@
 #include <stdio.h>
 
 int main(int argc, char* argv[]) {
-  printf("Hello, %s!\n", argv[1]);
+  if (argc == 2) {
+    printf("Hello, %s!\n", argv[1]);
+  }
+  else {
+    printf("Hello, %c. %s!\n", argv[1][0], argv[2]);
+  }
   return 0;
 }
